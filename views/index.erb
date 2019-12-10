@@ -1,4 +1,9 @@
 <h1>Here are our films:</h1>
 <% for film in Film.all()%>
-  <ul><li><%=film.title%></li></ul>
-<%end %>
+<ul>
+  <li>
+    <a href="<%=film.title%>">
+      <%=film.title%>
+    </li>
+  </ul>
+  <%end %>
