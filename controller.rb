@@ -6,5 +6,5 @@ require_relative('./models/film')
 also_reload('./models/*')
 
 get '/films' do
-  "#{Film.all()}"
+  erb(:index)
 end
