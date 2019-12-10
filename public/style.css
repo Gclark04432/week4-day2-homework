@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #7B9EA9;
   max-width: 500px;
 }
 
@@ -20,3 +20,6 @@ a{
   color: white;
   text-decoration: none;
 }
+
+div a {
+color: blue}
